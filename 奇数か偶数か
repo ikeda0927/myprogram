@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(void)
+{
+	int res;
+	printf("整数を入力してください\n");
+	scanf_s("%d", &res);
+	if (res % 2 == 0){
+		printf("偶数が入力されました\n");
+	}
+	else {
+		printf("奇数が入力されました\n");
+	}
+	return 0;
+}
